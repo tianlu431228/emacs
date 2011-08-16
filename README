@@ -1,0 +1,8 @@
+mkdir emacs
+  cd emacs
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:tianlu431228/emacs.git
+  git push -u origin master
